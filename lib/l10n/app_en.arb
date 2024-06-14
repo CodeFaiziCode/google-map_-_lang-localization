@@ -1,0 +1,8 @@
+{
+    "helloWorld":"Hello World",
+    "appBarText":"Language Localization",
+    "homeAppBar":"Flutter Assignment",
+    "message":"Forget what people will say, live your life in a way that no one has ever lived. Become the extent that people start calling you crazy, and with that same madness, show the world what you are.",
+    "gMapButton":"Google Map",
+    "motivation":"Motivation"
+}
