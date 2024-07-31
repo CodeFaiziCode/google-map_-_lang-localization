@@ -12,12 +12,9 @@ class _WebViewState extends State<WebView> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            appBar: AppBar(
-              title: Text("Web View in Flutter"),
-            ),
-            body: Container(
-                height: 300,
-                width: 150,
-                child: )));
+      appBar: AppBar(
+        title: Text("Web View in Flutter"),
+      ),
+    ));
   }
 }
