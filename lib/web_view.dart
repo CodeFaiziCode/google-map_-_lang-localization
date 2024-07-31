@@ -15,6 +15,13 @@ class _WebViewState extends State<WebView> {
       appBar: AppBar(
         title: Text("Web View in Flutter"),
       ),
+      body: const Column(
+        children: [
+          Center(
+            child: Text("This paage is for Web View"),
+          )
+        ],
+      ),
     ));
   }
 }
