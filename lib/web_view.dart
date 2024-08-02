@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class WebView extends StatefulWidget {
   const WebView({super.key});
@@ -17,35 +19,17 @@ class _WebViewState extends State<WebView> {
       ),
       body: const Column(
         children: [
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
-          Text("This paage is for Web View"),
           Center(
             child: Text("This paage is for Web View"),
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Center(
+                child: Text("I'm pretty sure this is the webview screen"),
+              )
+            ],
           )
         ],
       ),
