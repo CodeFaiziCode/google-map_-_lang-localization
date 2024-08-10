@@ -17,7 +17,8 @@ class LanguageController with ChangeNotifier {
     } else if (type == Locale('ur')) {
       await sp.setString('language_code', 'ur');
     }
-
+//hi hello
+//hi hello
     notifyListeners();
   }
 }
